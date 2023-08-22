@@ -63,6 +63,11 @@ app.post("/api/notes", (req, res) => {
   });
 });
 
+// TODO - add delete route
+app.delete("/api/notes", (req, res) => {
+
+})
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
